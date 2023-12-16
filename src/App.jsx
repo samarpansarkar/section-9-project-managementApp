@@ -1,11 +1,13 @@
 import ProjectsSideBar from "./Components/ProjectsSidebar";
 import { React, Fragment } from "react";
+import NewProject from "./Components/NewProject";
 
 function App() {
   return (
-    <Fragment>
+    <main className="h-screen my-8 flex gap-8">
       <ProjectsSideBar />
-    </Fragment>
+      <NewProject />
+    </main>
   );
 }
 
