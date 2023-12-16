@@ -13,7 +13,7 @@ export default function newProject({ onAdd }) {
 
     //validation
 
-    console.log(enteredTitle, enteredDescription, enteredDueDate);
+    // console.log(enteredTitle, enteredDescription, enteredDueDate);
     onAdd({
       title: enteredTitle,
       description: enteredDescription,
