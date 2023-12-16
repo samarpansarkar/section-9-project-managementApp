@@ -1,8 +1,11 @@
+import ProjectsSideBar from "./Components/ProjectsSidebar";
+import { React, Fragment } from "react";
+
 function App() {
   return (
-    <>
-      <h1 className="my-8 text-center text-5xl font-bold">Hello World</h1>
-    </>
+    <Fragment>
+      <ProjectsSideBar />
+    </Fragment>
   );
 }
 
