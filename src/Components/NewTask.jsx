@@ -9,6 +9,10 @@ const NewTask = ({ onAdd }) => {
   }
 
   function handleClick() {
+    if (enteredTask.trim() == "") {
+      alert("Please enter valid task");
+      return;
+    }
     onAdd(enteredTask);
     setEnteredTask("");
     console.log(enteredTask);
