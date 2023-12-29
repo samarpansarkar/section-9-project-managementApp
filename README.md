@@ -1,4 +1,4 @@
-# E-Commerce Website (ReactJS)
+# Project Management Website (ReactJS)
 
 <h3>Homepage</h3>
 <img src="https://github.com/samarpansarkar/section-9-project-managementApp/blob/master/Capture1.JPG"/>
